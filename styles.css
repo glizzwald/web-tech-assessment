@@ -1,11 +1,41 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 body {
     background-color: lightblue;
 }
 
 #container {
-    width: 90%;
     margin: 10%;
+}
+
+#navbar {
+    display: inline-block;
+    width: 500px;
+    font-family: sans-serif;
+}
+
+#navbar li {
+    display: block;
+    width: 120px;
+    float: left;
+    margin-left: 2px;
+    border: 1px solid #000;
+}
+
+#navbar a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #009;
+    text-align: center;
+}
+
+#navbar a:hover {
+    background-color: #009;
+    color: #fff;
+}
+
+#header {
+    display: ;
 }
 
 #first-section {
@@ -13,11 +43,11 @@ body {
 }
 
 #covid-info {
-    display: block;
+    display: inline-block;
     width: 80%;
+    float: left
 }
 
 #virus-image {
-    display: block;
-    float: right;
+    display: inline-block;
 }
