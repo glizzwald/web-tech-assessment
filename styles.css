@@ -1,27 +1,25 @@
 body {
     background-color: lightblue;
+    margin: 5%;
 }
 
-#container {
-    margin: 10%;
-}
+#container {}
 
 #navbar {
-    display: inline-block;
-    width: 500px;
+    width: 100%;
     font-family: sans-serif;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #navbar li {
-    display: block;
-    width: 120px;
-    float: left;
-    margin-left: 2px;
+    display: inline;
     border: 1px solid #000;
 }
 
 #navbar a {
-    display: block;
+    display: inline-block;
     padding: 3px;
     text-decoration: none;
     background-color: #fff;
@@ -35,19 +33,21 @@ body {
 }
 
 #header {
-    display: ;
+    display: block;
+    text-align: center;
 }
 
 #first-section {
-    display: inline;
+    display: block;
+    clear: both;
 }
 
 #covid-info {
-    display: inline-block;
-    width: 80%;
+    width: 70%;
     float: left
 }
 
 #virus-image {
     display: inline-block;
+    margin-top: 100px;
 }
