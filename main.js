@@ -1,12 +1,16 @@
 var covid;
+
 function main() {
     var settings = {
         "url": "https://api.covid19api.com/",
         "method": "GET",
         "timeout": 0,
-      };
-      
-      $.ajax(settings).done(function (response) {
+    };
+
+    $.ajax(settings).done(function(response) {
         console.log(response);
-      });
-    }
+    });
+}
+
+var output = document.getElementById('output');
+output.innerHTML = 'new content';
