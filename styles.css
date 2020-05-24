@@ -6,7 +6,7 @@ body {
 #container {}
 
 #navbar {
-    width: 100%;
+    width: 80%;
     font-family: sans-serif;
     list-style: none;
     margin: 0 auto;
@@ -15,20 +15,20 @@ body {
 
 #navbar li {
     display: inline;
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
 #navbar a {
     display: inline-block;
     padding: 3px;
     text-decoration: none;
-    background-color: #fff;
-    color: #009;
+    background-color: #009;
+    color: #fff;
     text-align: center;
 }
 
 #navbar a:hover {
-    background-color: #009;
+    background-color: blue;
     color: #fff;
 }
 
@@ -50,4 +50,41 @@ body {
 #virus-image {
     display: inline-block;
     margin-top: 100px;
+}
+
+#stats-heading {
+    text-align: center;
+}
+
+#infected-section {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 22px;
+    width: 35%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#confirmed-section {
+    display: inline-block;
+    width: 30%;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#deceased-section {
+    display: inline-block;
+    width: 30%;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#deceased,
+#infected,
+#dailyconfirmed {
+    font-size: 50px;
 }
