@@ -32,9 +32,11 @@ body {
     color: #fff;
 }
 
-#header {
-    display: block;
+#covid-header {
+    display: inline-block;
+    width: 100%;
     text-align: center;
+    border: 1px;
 }
 
 #first-section {
@@ -87,4 +89,27 @@ body {
 #infected,
 #dailyconfirmed {
     font-size: 50px;
+}
+
+#prevention-handling {
+    width: 100%;
+}
+
+#prevention-heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+#prevention-list {
+    display: inline-block;
+    font-size: 20px;
+    width: 50%;
+}
+
+#prevention-list li {
+    ;
+}
+
+#prevention-image {
+    display: inline-block;
 }
