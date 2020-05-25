@@ -1,9 +1,13 @@
+@media only screen and (max-width: 600px) {
+    #container {
+        display: block;
+    }
+}
+
 body {
     background-color: lightblue;
     margin: 5%;
 }
-
-#container {}
 
 #navbar {
     width: 80%;
@@ -56,6 +60,8 @@ body {
 
 #stats-heading {
     text-align: center;
+    font-weight: bold;
+    font-size: 60px;
 }
 
 #infected-section {
@@ -111,4 +117,15 @@ body {
     display: inline-block;
     margin-left: 100px;
     border-style: solid;
+    width: 400px;
+}
+
+#face-masks h1,
+#face-masks h2 {
+    display: inline-block;
+    width: 50%;
+}
+
+#face-masks img {
+    display: inline-block
 }
