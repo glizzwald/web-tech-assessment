@@ -1,5 +1,13 @@
 @media only screen and (max-width: 600px) {
+    #prevention-list {
+        width: 100%;
+    }
     #container {
+        display: block;
+    }
+    #infected-section,
+    #confirmed-section,
+    #deceased-section {
         display: block;
     }
 }
